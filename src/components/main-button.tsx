@@ -11,7 +11,7 @@ export default function MainButton({
     return (
       <a
         href={href}
-        className={`bg-secondary inline-block px-9 py-3 rounded-full font-bold ${className}`}
+        className={`bg-blue inline-block px-9 py-3 rounded-full font-bold text-white hover:bg-blue/90 transition ${className}`}
         {...props}
       >
         {children}
@@ -21,7 +21,7 @@ export default function MainButton({
 
   return (
     <button
-      className={`bg-secondary px-9 py-3 rounded-full font-bold ${className}`}
+      className={`bg-blue px-9 py-3 rounded-full font-bold text-white hover:bg-blue/90 transition ${className}`}
       {...props}
     >
       {children}
