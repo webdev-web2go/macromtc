@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         blue: "#2E4482",
+        gray: "#ededed",
       },
       fontFamily: {
         verdana: ["var(--font-verdana)"],
