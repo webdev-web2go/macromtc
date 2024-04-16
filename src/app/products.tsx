@@ -1,10 +1,9 @@
 import MainButton from "@/components/main-button";
 import Image from "next/image";
-import React from "react";
 
 export default function Products() {
   return (
-    <section className="text-blue space-y-14">
+    <section className="text-blue space-y-14 mb-24">
       <div className="bg-gray relative 2xl:py-36 py-10 px-2">
         <h2 className="2xl:absolute 2xl:-top-6 2xl:left-1/2 2xl:-translate-x-1/2 font-bold text-center text-5xl sm:text-7xl md:text-[6.5rem] lg:text-[9rem] xl:text-[11rem] 2xl:text-[12rem] text-gray uppercase [text-shadow:-1px_0px_0px_#2E4482,_0px_1px_0px_#2E4482,_1px_0px_0px_#2E4482,_0px_-1px_0px_#2E4482] mb-6 lg:mb-0">
           Productos

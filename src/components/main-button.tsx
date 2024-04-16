@@ -1,17 +1,25 @@
 import type { AnchorHTMLAttributes, ButtonHTMLAttributes } from "react";
 
+interface Props {
+  text?: string;
+  bg?: string;
+}
+
 export default function MainButton({
   children,
   className,
   href,
+  text = "white",
+  bg = "blue",
   ...props
 }: ButtonHTMLAttributes<HTMLButtonElement> &
-  AnchorHTMLAttributes<HTMLAnchorElement>) {
+  AnchorHTMLAttributes<HTMLAnchorElement> &
+  Props) {
   if (href) {
     return (
       <a
         href={href}
-        className={`bg-blue inline-block px-9 py-3 rounded-full font-bold text-white hover:bg-blue/90 transition ${className}`}
+        className={`bg-${bg} inline-block px-9 py-3 rounded-full font-bold text-${text} hover:bg-${bg}/90 transition ${className}`}
         {...props}
       >
         {children}
@@ -21,7 +29,7 @@ export default function MainButton({
 
   return (
     <button
-      className={`bg-blue px-9 py-3 rounded-full font-bold text-white hover:bg-blue/90 transition ${className}`}
+      className={`bg-${bg} inline-block px-9 py-3 rounded-full font-bold text-${text} hover:bg-${bg}/90 transition ${className}`}
       {...props}
     >
       {children}
