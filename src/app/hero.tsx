@@ -4,6 +4,7 @@
 import { useEffect, useRef, useState } from "react";
 import { register } from "swiper/element";
 import type { Swiper } from "swiper/types";
+import Nav from "./nav";
 
 export default function Hero() {
   const [swiperReady, setSwiperReady] = useState(false);
@@ -35,9 +36,9 @@ export default function Hero() {
 
   return (
     <section id="home" className="relative text-white">
-      {/* <header className="bg-main px-4">
+      <header className="bg-blue px-4">
         <Nav />
-      </header> */}
+      </header>
       <div>
         {swiperReady ? (
           <swiper-container ref={swiperRef} loop>
@@ -97,7 +98,7 @@ export default function Hero() {
             </div>
           </div>
         )}
-        <div className="absolute bottom-4 md:bottom-32 left-1/2 z-20 -translate-x-1/2 flex gap-8">
+        <div className="absolute bottom-24 md:bottom-32 left-1/2 z-20 -translate-x-1/2 flex gap-8">
           {new Array(3).fill(0).map((_, i) => (
             <button
               key={i}

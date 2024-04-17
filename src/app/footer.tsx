@@ -31,13 +31,13 @@ export default function Footer() {
                 <a href="#somos">Somos</a>
               </li>
               <li>
-                <a href="#seguridad">Productos</a>
+                <a href="#productos">Productos</a>
               </li>
               <li>
-                <a href="#clientes">Servicios</a>
+                <a href="#servicios">Servicios</a>
               </li>
               <li>
-                <a href="#servicios">Contacto</a>
+                <a href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>

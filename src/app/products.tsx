@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Products() {
   return (
-    <section className="text-blue space-y-14 mb-24">
+    <section id="productos" className="text-blue space-y-14 mb-24">
       <div className="bg-gray relative 2xl:py-36 py-10 px-2">
         <h2 className="2xl:absolute 2xl:-top-6 2xl:left-1/2 2xl:-translate-x-1/2 font-bold text-center text-5xl sm:text-7xl md:text-[6.5rem] lg:text-[9rem] xl:text-[11rem] 2xl:text-[12rem] text-gray uppercase [text-shadow:-1px_0px_0px_#2E4482,_0px_1px_0px_#2E4482,_1px_0px_0px_#2E4482,_0px_-1px_0px_#2E4482] mb-6 lg:mb-0">
           Productos
@@ -26,7 +26,7 @@ export default function Products() {
               tecnología de vanguardia, tenemos todo lo que necesitas para
               impulsar tu producción al siguiente nivel.
             </p>
-            <MainButton>Explorar productos</MainButton>
+            <MainButton href="#contacto">Explorar productos</MainButton>
           </div>
         </div>
       </div>
@@ -47,7 +47,9 @@ export default function Products() {
             como una completa selección de línea blanca para equipar hogares y
             negocios. Calidad y variedad al mejor precio.
           </p>
-          <MainButton className="self-start mt-auto">Ver catálogo</MainButton>
+          <MainButton href="#contacto" className="self-start mt-auto">
+            Ver catálogo
+          </MainButton>
         </article>
         <article className="w-full flex flex-col gap-10 max-w-lg">
           <Image
@@ -65,7 +67,9 @@ export default function Products() {
             femenina. Desde prendas básicas hasta accesorios de moda, ofrecemos
             una selección única para satisfacer los gustos más exigentes.
           </p>
-          <MainButton className="self-start">Explorar colección</MainButton>
+          <MainButton href="#contacto" className="self-start">
+            Explorar colección
+          </MainButton>
         </article>
       </div>
       <div className="bg-gray py-10 2xl:py-36 px-2">
@@ -79,7 +83,7 @@ export default function Products() {
               equipo e instrumental. Todo lo que necesitas para brindar un
               servicio de excelencia a tus pacientes, disponible aquí.
             </p>
-            <MainButton>Ver productos</MainButton>
+            <MainButton href="#contacto">Ver productos</MainButton>
           </div>
           <Image
             src="/products/odonto.webp"
@@ -108,7 +112,9 @@ export default function Products() {
             almacenamiento, tenemos todo para hacer de tu oficina un lugar
             funcional y cómodo.
           </p>
-          <MainButton className="self-start mt-auto">Ver productos</MainButton>
+          <MainButton href="#contacto" className="self-start mt-auto">
+            Ver productos
+          </MainButton>
         </article>
         <article className="w-full flex flex-col gap-10 max-w-lg">
           <Image
@@ -126,7 +132,9 @@ export default function Products() {
             y equipo especializado. Desde herramientas hasta sistemas de riego,
             encuentras todo lo necesario para potenciar tu producción.
           </p>
-          <MainButton className="self-start">Explorar colección</MainButton>
+          <MainButton href="#contacto" className="self-start">
+            Explorar colección
+          </MainButton>
         </article>
       </div>
     </section>

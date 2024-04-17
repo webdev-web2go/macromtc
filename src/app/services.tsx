@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <section className="mb-24">
+    <section id="servicios" className="mb-24">
       <div className="bg-blue relative 2xl:py-36 py-10 px-2 text-white">
         <h2 className="2xl:absolute 2xl:-top-6 2xl:left-1/2 2xl:-translate-x-1/2 font-bold text-center text-5xl sm:text-7xl md:text-[6.5rem] lg:text-[9rem] xl:text-[11rem] 2xl:text-[12rem] text-blue uppercase [text-shadow:-1px_0px_0px_#fff,_0px_1px_0px_#fff,_1px_0px_0px_#fff,_0px_-1px_0px_#fff] mb-6 lg:mb-0">
           Servicios
@@ -26,7 +26,7 @@ export default function Services() {
               negocio mientras nosotros nos encargamos de los detalles
               administrativos.
             </p>
-            <MainButton text="blue" bg="white">
+            <MainButton href="#contacto" text="blue" bg="white">
               Descubrir más
             </MainButton>
           </div>
@@ -51,7 +51,9 @@ export default function Services() {
               integrales para garantizar que tus productos lleguen a tiempo y en
               perfectas condiciones a su destino.
             </p>
-            <MainButton className="self-start mt-auto">Conocer más</MainButton>
+            <MainButton href="#contacto" className="self-start mt-auto">
+              Conocer más
+            </MainButton>
           </article>
           <article className="w-full flex flex-col gap-10 max-w-lg">
             <Image
@@ -70,7 +72,9 @@ export default function Services() {
               optimización de rutas de distribución, te ayudamos a maximizar la
               productividad y reducir costos.
             </p>
-            <MainButton className="self-start">Explorar servicios</MainButton>
+            <MainButton href="#contacto" className="self-start">
+              Explorar servicios
+            </MainButton>
           </article>
         </div>
       </div>
