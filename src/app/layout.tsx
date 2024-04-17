@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { kastelov, verdana } from "@/fonts";
+import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,6 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${verdana.variable} ${kastelov.variable}`}>
         {children}
+        <Toaster richColors />
       </body>
     </html>
   );

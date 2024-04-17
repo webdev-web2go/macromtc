@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <section>
+    <section className="mb-24">
       <div className="bg-blue relative 2xl:py-36 py-10 px-2 text-white">
         <h2 className="2xl:absolute 2xl:-top-6 2xl:left-1/2 2xl:-translate-x-1/2 font-bold text-center text-5xl sm:text-7xl md:text-[6.5rem] lg:text-[9rem] xl:text-[11rem] 2xl:text-[12rem] text-blue uppercase [text-shadow:-1px_0px_0px_#fff,_0px_1px_0px_#fff,_1px_0px_0px_#fff,_0px_-1px_0px_#fff] mb-6 lg:mb-0">
           Servicios
