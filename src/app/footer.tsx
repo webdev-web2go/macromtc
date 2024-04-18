@@ -9,11 +9,18 @@ export default function Footer() {
             loading="lazy"
             className="aspect-[108/45] w-40"
           />
-          <address className="flex flex-col not-italic">
-            <a href="tel:9996494256" className="font-bold text-2xl">
-              (999) 649 4256
-            </a>
-            <a href="mailto:contacto@macromtc.com">contacto@macromtc.com</a>
+          <address className="flex flex-col gap-6 not-italic">
+            <div className="flex flex-col">
+              <a href="tel:9996494256" className="font-bold text-2xl">
+                (999) 649 4256
+              </a>
+              <a href="mailto:contacto@macromtc.com">contacto@macromtc.com</a>
+            </div>
+            <p>
+              Calle 33 Diag., Ext. 212, Int. Local 8, entre 33 Y 35
+              <br /> Col. Rinconada de Itzimná
+              <br /> Mérida, Yucatán, 97100
+            </p>
           </address>
           <span className="text-sm md:inline-block hidden">
             &copy; {new Date(Date.now()).getFullYear()} MTC - Todos los derechos
