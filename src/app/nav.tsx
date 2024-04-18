@@ -40,7 +40,7 @@ export default function Nav() {
       >
         <div className="flex gap-2 absolute top-10 left-10">
           <a
-            href="https://api.whatsapp.com/send?phone=529996471253"
+            href="https://api.whatsapp.com/send?phone=529996494256"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp de MTC."
@@ -116,54 +116,35 @@ export default function Nav() {
       <div className="lg:flex gap-6 items-center hidden">
         <ul className="flex gap-4 text-white">
           <li className="[&>div]:hover:w-3/4">
-            <a href="#home" onClick={() => setNavMobileOpen(!navMobileOpen)}>
-              Home
-            </a>
+            <a href="#home">Home</a>
             <div
               aria-hidden
               className="h-1 w-0 transition-all duration-300 bg-white"
             />
           </li>
           <li className="[&>div]:hover:w-3/4">
-            <a href="#somos" onClick={() => setNavMobileOpen(!navMobileOpen)}>
-              Somos
-            </a>
+            <a href="#somos">Somos</a>
             <div
               aria-hidden
               className="h-1 w-0 transition-all duration-300 bg-white"
             />
           </li>
           <li className="[&>div]:hover:w-3/4">
-            <a
-              href="#productos"
-              onClick={() => setNavMobileOpen(!navMobileOpen)}
-            >
-              Productos
-            </a>
+            <a href="#productos">Productos</a>
             <div
               aria-hidden
               className="h-1 w-0 transition-all duration-300 bg-white"
             />
           </li>
           <li className="[&>div]:hover:w-3/4">
-            <a
-              href="#servicios"
-              onClick={() => setNavMobileOpen(!navMobileOpen)}
-            >
-              Servicios
-            </a>
+            <a href="#servicios">Servicios</a>
             <div
               aria-hidden
               className="h-1 w-0 transition-all duration-300 bg-white"
             />
           </li>
           <li className="[&>div]:hover:w-3/4">
-            <a
-              href="#contacto"
-              onClick={() => setNavMobileOpen(!navMobileOpen)}
-            >
-              Contacto
-            </a>
+            <a href="#contacto">Contacto</a>
             <div
               aria-hidden
               className="h-1 w-0 transition-all duration-300 bg-white"
@@ -171,7 +152,7 @@ export default function Nav() {
           </li>
           <li>
             <a
-              href="https://api.whatsapp.com/send?phone=529996471253"
+              href="https://api.whatsapp.com/send?phone=529996494256"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp de MTC."

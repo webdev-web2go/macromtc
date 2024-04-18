@@ -10,8 +10,8 @@ export default function Footer() {
             className="aspect-[108/45] w-40"
           />
           <address className="flex flex-col not-italic">
-            <a href="tel:9996471253" className="font-bold text-2xl">
-              (999) 647 1253
+            <a href="tel:9996494256" className="font-bold text-2xl">
+              (999) 649 4256
             </a>
             <a href="mailto:contacto@macromtc.com">contacto@macromtc.com</a>
           </address>

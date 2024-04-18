@@ -3,6 +3,7 @@ import "./globals.css";
 import { kastelov, verdana } from "@/fonts";
 import { Toaster } from "sonner";
 import Footer from "./footer";
+import WhatsappButton from "./whatsapp-button";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body className={`${verdana.variable} ${kastelov.variable}`}>
         {children}
         <Footer />
+        <WhatsappButton />
         <Toaster richColors />
       </body>
     </html>
