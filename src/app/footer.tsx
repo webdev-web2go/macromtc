@@ -18,8 +18,8 @@ export default function Footer() {
             </div>
             <p>
               Calle 33 Diag., Ext. 212, Int. Local 8, entre 33 Y 35
-              <br /> Col. Rinconada de Itzimná
-              <br /> Mérida, Yucatán, 97100
+              <br /> Col. Polígono 108 Itzimná
+              <br /> Mérida, Yucatán, 97143
             </p>
           </address>
           <span className="text-sm md:inline-block hidden">
