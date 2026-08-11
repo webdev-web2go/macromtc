@@ -11,8 +11,8 @@ export default function Footer() {
           />
           <address className="flex flex-col gap-6 not-italic">
             <div className="flex flex-col">
-              <a href="tel:9996494256" className="font-bold text-2xl">
-                (999) 649 4256
+              <a href="tel:9996471253" className="font-bold text-2xl">
+                (999) 647 1253
               </a>
               <a href="mailto:contacto@macromtc.com">contacto@macromtc.com</a>
             </div>

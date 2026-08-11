@@ -40,7 +40,7 @@ export default function Nav() {
       >
         <div className="flex gap-2 absolute top-10 left-10">
           <a
-            href="https://api.whatsapp.com/send?phone=529996494256"
+            href="https://api.whatsapp.com/send?phone=529996471253"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp de MTC."
@@ -152,7 +152,7 @@ export default function Nav() {
           </li>
           <li>
             <a
-              href="https://api.whatsapp.com/send?phone=529996494256"
+              href="https://api.whatsapp.com/send?phone=529996471253"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp de MTC."
